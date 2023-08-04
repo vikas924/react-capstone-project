@@ -15,6 +15,7 @@
     - [Tech Stack](#tech-stack)
     - [Key Features](#key-features)
     - [🚀 Live Demo](#live-demo)
+    - [🚀 Video Link](#video link)
 - [💻 Getting Started](#getting-started)
   - [Setup](#setup)
   - [Prerequisites](#prerequisites)
@@ -69,9 +70,9 @@ Anibook is a website made using react, redux. This website let use to check diff
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-## 🚀 Video presentation  <a name="Video-presentation"></a>
+## 🚀 Video presentation  <a name="video link"></a>
 
-- [Live Demo Link](https://www.loom.com/share/16e63f0e50394433abf14841a780d0d7)
+- [Video Link](https://www.loom.com/share/16e63f0e50394433abf14841a780d0d7)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 <!-- GETTING STARTED -->
