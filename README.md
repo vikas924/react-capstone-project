@@ -58,17 +58,22 @@ Anibook is a website made using react, redux. This website let use to check diff
 
 ### Key Features <a name="key-features"></a>
 
-- Add quotes
-- use api
+- Can search
+- Can browse next pages
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-- [Live Demo Link](https://vikas924.github.io/math-magician/)
+- [Live Demo Link](https://feature--stellar-ganache-e17427.netlify.app/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
+## 🚀 Video presentation  <a name="Video-presentation"></a>
+
+- [Live Demo Link](https://www.loom.com/share/16e63f0e50394433abf14841a780d0d7)
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 <!-- GETTING STARTED -->
 
 ## 💻 Getting Started <a name="getting-started"></a>
@@ -131,7 +136,7 @@ You can deploy this project using:
 GitHub Pages
 
 ```sh
-  [https://vikas924.github.io/math-magician/]
+  [https://feature--stellar-ganache-e17427.netlify.app/]
 ```
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -157,7 +162,7 @@ GitHub Pages
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues](https://github.com/vikas924/math-magician/issues) page.
+Feel free to check the [issues](https://github.com/vikas924/react-capstone-project/issues) page.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -171,12 +176,14 @@ If you like this project please follow me on github , twitter and also connect o
 
 I would like to thank Microverse for this exercise.
 
+credit: credit to Nelson Sakwa the author of the original design
+
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## 📝 License <a name="license"></a>
 
-This project is [MIT](https://github.com/vikas924/math-magician/blob/99d5608a29575651c0a62af95cf14cd789ce9844/LICENSE) licensed.
+This project is [MIT](https://github.com/vikas924/react-capstone-project/blob/4650c66ed79421194d713d55670a715fc0c62690/LICENSE) licensed.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
