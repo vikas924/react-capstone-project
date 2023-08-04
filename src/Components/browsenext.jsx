@@ -14,8 +14,19 @@ export default function Browsepages() {
   };
   let array = [];
   let second = [];
+  if (currentstate.total < 10) {
+    let count = 1;
+    let i = 0;
+    while (i < currentstate.total) {
+      array[i] = count;
+      count += 1;
+      i += 1;
+    }
+    second = array.map((item) => <button type="button" key={item} onFocus={(e) => (handleclick(e))}>{item}</button>);
+    return second;
+  }
   if (currentstate.current < 7) {
-    array = [1, 2, 3, 4, 5, 6, 7, 8, currentstate.total];
+    array = [1, 2, 3, 4, 5, 6, 7, 8, 9, currentstate.total];
     second = array.map((item) => <button type="button" key={item} onFocus={(e) => (handleclick(e))}>{item}</button>);
     return second;
   } if ((currentstate.current >= 7) && (currentstate.current < currentstate.total - 6)) {

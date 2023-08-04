@@ -37,6 +37,7 @@ const animeSlice = createSlice({
     searchanime: (state, action) => ({
       ...state,
       search: action.payload,
+      pages: 1,
     }),
     browsepages: (state, action) => ({
       ...state,
