@@ -30,6 +30,7 @@ describe('test animelist', () => {
         { id: 27, genre: 'Shounen' }, { id: 30, genre: 'Sports' },
         { id: 31, genre: 'Super Power' }, { id: 37, genre: 'Supernatural' }],
       selected: 0,
+      pages: 1,
       search: '',
       isLoading: true,
     };
@@ -54,6 +55,7 @@ describe('test animelist', () => {
         { id: 37, genre: 'Supernatural' },
       ],
       selected: 3,
+      pages: 1,
       search: '',
       isLoading: true,
     };
@@ -71,6 +73,7 @@ describe('test animelist', () => {
         { id: 27, genre: 'Shounen' }, { id: 30, genre: 'Sports' },
         { id: 31, genre: 'Super Power' }, { id: 37, genre: 'Supernatural' }],
       selected: 3,
+      pages: 1,
       search: '',
       isLoading: false,
     };
@@ -97,6 +100,7 @@ describe('test animelist', () => {
         { id: 37, genre: 'Supernatural' },
       ],
       selected: 3,
+      pages: 1,
       search: 'abc',
       isLoading: false,
     };
