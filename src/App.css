@@ -140,6 +140,7 @@ a {
 .itemContainer ul {
   display: flex;
   list-style: none;
+  flex-wrap: wrap;
   gap: 1rem;
 }
 
