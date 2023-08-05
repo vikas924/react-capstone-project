@@ -19,7 +19,7 @@ export const fetchdetails = createAsyncThunk('anime/details', async (url) => {
 });
 
 const itemSlice = createSlice({
-  name: 'animelist',
+  name: 'animedata',
   initialState,
   reducers: {
     navigation: (state, action) => ({
