@@ -1,54 +1,28 @@
-import { createAsyncThunk, createSlice } from '@reduxjs/toolkit';
-import axios from 'axios';
+import { createSlice } from '@reduxjs/toolkit';
 
 const initialState = {
-  details: [],
+  details: null,
   navigation: 'homepage',
   id: '',
   isLoading: true,
 };
 
-export const fetchdetails = createAsyncThunk('anime/details', async (url) => {
-  try {
-    const response = await axios.get(url);
-    const res = response.data;
-    return res;
-  } catch (error) {
-    throw new Error('Failed to get list');
-  }
-});
-
 const itemSlice = createSlice({
-  name: 'animelist',
+  name: 'animedetail',
   initialState,
   reducers: {
     navigation: (state, action) => ({
       ...state,
+      details: action.payload.data,
       navigation: 'detailspage',
-      id: action.payload,
+      id: action.payload.key,
+      isLoading: false,
     }),
     Home: (state) => ({
       ...state,
       navigation: 'homepage',
       id: '',
     }),
-  },
-  extraReducers: (builder) => {
-    builder.addCase(fetchdetails.pending, (state) => ({
-      ...state,
-      isLoading: true,
-    }))
-      .addCase(fetchdetails.fulfilled, (state, action) => ({
-        ...state,
-        details: action.payload,
-        navigation: 'detailspage',
-        isLoading: false,
-      }))
-      .addCase(fetchdetails.rejected, (state) => ({
-        ...state,
-        isLoading: false,
-        error: true,
-      }));
   },
 });
 

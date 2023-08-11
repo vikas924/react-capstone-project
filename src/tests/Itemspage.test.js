@@ -25,19 +25,17 @@ describe('test itemspage ', () => {
     };
     const mockdetail = {
       details: {
-        data: {
-          mal_id: 21,
-          images: { webp: { large_image_url: 'https://cdn.myanimelist.net/images/anime/6/73245l.webp' } },
-          title: 'One Piece',
-          score: 8.7,
-          rank: 57,
-          synopsis: 'hello',
-          genres: [{ name: 'Action' }, { name: 'Fantasy' }, { name: 'Shounen' }],
-          trailer: { embed_url: 'https://www.youtube.com/embed/l_98K4_6UQ0?enablejsapi=1&wmode=opaque&autoplay=1' },
-          status: 'Currently Airing',
-          rating: 'PG-13 - Teens 13 or older',
-          aired: { string: 'Oct 20, 1999 to ?' },
-        },
+        id: 21,
+        images: { webp: { large_image_url: 'https://cdn.myanimelist.net/images/anime/6/73245l.webp' } },
+        titles: 'One Piece',
+        score: 8.7,
+        rank: 57,
+        synopsis: 'hello',
+        genres: [{ name: 'Action' }, { name: 'Fantasy' }, { name: 'Shounen' }],
+        trailer: { embed_url: 'https://www.youtube.com/embed/l_98K4_6UQ0?enablejsapi=1&wmode=opaque&autoplay=1' },
+        status: 'Currently Airing',
+        rating: 'PG-13 - Teens 13 or older',
+        aired: { string: 'Oct 20, 1999 to ?' },
       },
       id: 21,
       navigation: 'homepage',
@@ -47,9 +45,6 @@ describe('test itemspage ', () => {
       anime: mockData,
       animebyid: mockdetail,
     });
-
-    store.dispatch = jest.fn(() => Promise.resolve());
-
     render(
       <>
         <BrowserRouter>

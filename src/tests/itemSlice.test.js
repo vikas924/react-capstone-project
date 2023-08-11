@@ -4,7 +4,7 @@ describe('test detailPage', () => {
   it('Type of navigation', () => {
     const action = navigation();
     const ecpectedAction = {
-      type: 'animelist/navigation',
+      type: 'animedetail/navigation',
     };
 
     expect(action).toEqual(ecpectedAction);
@@ -13,7 +13,7 @@ describe('test detailPage', () => {
   it('Type of Home', () => {
     const action = Home();
     const ecpectedAction = {
-      type: 'animelist/Home',
+      type: 'animedetail/Home',
     };
 
     expect(action).toEqual(ecpectedAction);
@@ -27,14 +27,14 @@ describe('test detailPage', () => {
       isLoading: true,
     };
 
-    const action = navigation(10);
+    const action = navigation({ key: 1, data: {} });
     const result = itemReducer(state, action);
 
     const newState = {
-      details: [],
+      details: {},
       navigation: 'detailspage',
-      id: 10,
-      isLoading: true,
+      id: 1,
+      isLoading: false,
     };
 
     expect(newState).toMatchObject(result);

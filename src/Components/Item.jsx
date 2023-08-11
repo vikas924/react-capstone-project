@@ -10,23 +10,23 @@ export default function Itemdetails() {
         <ul className="itemul">
           <li className="itemli">
             Aired :
-            {` ${currentstate.details.data.aired.string}`}
+            {` ${currentstate.details.aired.string}`}
           </li>
           <li className="itemli">
             Rating :
-            {` ${currentstate.details.data.rating}`}
+            {` ${currentstate.details.rating}`}
           </li>
           <li className="itemli">
             Rank :
-            {` ${currentstate.details.data.rank}`}
+            {` ${currentstate.details.rank}`}
           </li>
           <li className="itemli">
             Score :
-            {` ${currentstate.details.data.score}`}
+            {` ${currentstate.details.score}`}
           </li>
           <li className="itemli">
             Status :
-            {` ${currentstate.details.data.status}`}
+            {` ${currentstate.details.status}`}
           </li>
         </ul>
       </div>
