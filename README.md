@@ -66,7 +66,7 @@ Anibook is a website made using react, redux. This website let use to check diff
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-- [Live Demo Link](https://feature--stellar-ganache-e17427.netlify.app/)
+- [Live Demo Link](https://stellar-ganache-e17427.netlify.app/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
