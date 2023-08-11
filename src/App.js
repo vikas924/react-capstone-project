@@ -7,7 +7,7 @@ import './App.css';
 
 function App() {
   const curentstate = useSelector((state) => state.animebyid);
-  const json = JSON.parse(localStorage.getItem('key'));
+  const json = (localStorage.getItem('key')) ? JSON.parse(localStorage.getItem('key')) : {};
   const id = (curentstate.id !== '') ? curentstate.id : json.key;
 
   return (
